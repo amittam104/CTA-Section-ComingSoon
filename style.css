@@ -24,9 +24,42 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 24rem;
+  background-image: url(images/bg-pattern-desktop.svg);
 }
 
 .img-desk {
   height: 100vh;
   width: auto;
+}
+
+.content-section {
+  /* display: flex;
+  flex-direction: column; */
+  padding: 10rem 0 10rem 20rem;
+}
+
+.logo {
+  margin-bottom: 15rem;
+}
+
+.header {
+  font-size: 8rem;
+  color: hsl(0, 6%, 24%);
+  text-transform: uppercase;
+  line-height: 1.1;
+  letter-spacing: 17px;
+  margin-bottom: 3.4rem;
+}
+
+.header-lite {
+  font-weight: 300;
+  color: hsl(0, 36%, 70%);
+}
+
+.description {
+  font-size: 1.6rem;
+  color: hsl(0, 36%, 70%);
+  line-height: 1.5;
+  margin-bottom: 4rem;
 }
