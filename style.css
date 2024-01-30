@@ -72,6 +72,7 @@ body {
 
 .form {
   /* position: relative; */
+  max-width: 90%;
   display: flex;
   align-items: center;
   margin-bottom: 1.2rem;
@@ -86,12 +87,12 @@ body {
   background-color: rgba(255, 245, 245, 0.593);
   padding: 2rem 10rem 2rem 3rem;
   border-radius: 10rem;
-  margin-right: -6rem;
+  margin-right: -11rem;
 }
 
 #email:focus {
   font-family: "Josefin Sans", sans-serif;
-  outline: 2px solid hsl(0, 93%, 68%);
+  outline: 2px solid hsl(230, 44%, 51%);
   background-color: #fff;
 }
 
@@ -106,12 +107,13 @@ body {
   /* transform: translate(0, -50%); */
   border: none;
   background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
-  padding: 2.2rem 4rem 2.2rem 4rem;
+  padding: 2.2rem 5rem 2.2rem 5rem;
   border-radius: 10rem;
   /* position: fixed; */
   box-shadow: 0 5px 13px hsl(0, 36%, 70%);
   transition: 0.3 all;
   cursor: pointer;
+  /* margin-left: -2rem; */
 }
 
 .btn:active {
@@ -131,10 +133,11 @@ body {
 }
 
 .error-icon {
-  position: absolute;
+  /* position: absolute;
   top: 50%;
-  left: 65%;
-  transform: translate(0, -50%);
+  left: 65%; */
+  /* transform: translate(0, -50%); */
+  margin-right: 2rem;
 }
 
 .hidden {
@@ -234,5 +237,11 @@ body {
     max-width: 70%;
     padding: 1.6rem 3rem 1.6rem 3rem;
     border-radius: 10rem;
+  }
+
+  .error-message {
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+    align-self: flex-start;
   }
 }
